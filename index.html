@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD TRY FORMATTED</title> 
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <br>
+  <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+    <input type="text" placeholder="Search.." id="search-input" onInput="handleSearch" name="search2">
+    <button type="submit"><i class="fa fa-search" ></i></button>
+  </form>
+
+  <div>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Your Name">
+  </div>
+  <div class="form-group mt-3">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter Your email">
+  </div>
+  <button id="btnSubmit" type="submit" class="btn btn-primary mt-3" onclick="save()">Save</button>
+  <button id="btnUpdate" type="submit" class="btn btn-primary mt-3" style="display :none;">Update</button>
+</div>
+  <br>
+      <div id="form" >
+      </div>
+      <div id="table" class="container-fluid">  
+      </div>
+      <div id ="tablebody">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <script src="script.js"></script>
+</body>
+</html>
